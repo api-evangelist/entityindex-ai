@@ -1,4 +1,4 @@
-# entityindex-ai
+# EntityIndex.ai
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,119 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-entityindex-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://entityindex.ai/
+EntityIndex.ai provides a verified guide of hotels and restaurants in Andorra for AI assistants and people. It aggregates public data, adds schema.org markup, and offers machine‑readable JSON, OpenAPI spec, and llms.txt for easy integration. The service is free, does not handle bookings or payments, and attributes data under CC BY 4.0.
+
+**Areas:** Hotels · Restaurants · OpenAPI
+
+## EntityIndex.ai on APIs.io
+
+Everything profiled for EntityIndex.ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/entityindex-ai/](https://apis.io/providers/entityindex-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [EntityIndex.ai Entities API](https://apis.io/apis/entityindex-ai/entityindex-ai-entities-api/) — Lists and records of verified businesses.
+- [EntityIndex.ai Index API](https://apis.io/apis/entityindex-ai/entityindex-ai-index-api/) — Discovery of countries, verticals and schemas.
+- [EntityIndex.ai MCP API](https://apis.io/apis/entityindex-ai/entityindex-ai-mcp-api/) — Model Context Protocol endpoint (JSON-RPC 2.0 over Streamable HTTP).
+- [EntityIndex.ai Restaurants API](https://apis.io/apis/entityindex-ai/entityindex-ai-restaurants-api/) — Restaurants vertical
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Entityindex Ai Agentic Access](https://apis.io/agentic-access/entityindex-ai/entityindex-ai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Entity](https://apis.io/schemas/entityindex-ai/entityindex-ai-entity/)
+- [EntityIndex](https://apis.io/schemas/entityindex-ai/entityindex-ai-entity-index/)
+- [EntityList](https://apis.io/schemas/entityindex-ai/entityindex-ai-entity-list/)
+- [JsonRpcResponse](https://apis.io/schemas/entityindex-ai/entityindex-ai-json-rpc-response/)
+- [Restaurant](https://apis.io/schemas/entityindex-ai/entityindex-ai-restaurant/)
+- [VerticalsCatalogue](https://apis.io/schemas/entityindex-ai/entityindex-ai-verticals-catalogue/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Entityindex Ai Context](https://apis.io/jsonld/entityindex-ai/entityindex-ai-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EntityIndex.ai API Rules](https://apis.io/rules/entityindex-ai/entityindex-ai-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Entityindex Ai Domain Security](https://apis.io/security/entityindex-ai/entityindex-ai-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://entityindex.ai/)
+- [API reference](https://entityindex.ai/en/guides/)
+
+## API Evangelist rating
+
+**Kin Score 31.2** — thin · rubric 0.27.0 · scored 2026-11-07
+
+| Facet | Score |
+|---|---|
+| Discoverability | 53.3 |
+| Contract quality | 57.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 13.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 33.3** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/entityindex-ai/](https://apis.io/providers/entityindex-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EntityIndex.ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/entityindex-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
